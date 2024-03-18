@@ -5,8 +5,8 @@ Pytorch implementation of the paper [Exploring Knowledge Distillation Towards Do
 
 <p align="center">
   <img src="https://github.com/ayanban011/GraphKD/blob/main/fig/sgc.png">
-  <br>
-**Structured graph creation:** We extracted the RoI pooled features and classified them into "Text" and "Non-text" based on their covariance. Then we initialize the node in the identified RoI regions and define the adjacency edges. Lastly, we iteratively merge the text node with an adaptive sample mining strategy to reduce text bias.
+  <be>
+<b>Structured graph creation:</b> We extracted the RoI pooled features and classified them into "Text" and "Non-text" based on their covariance. Then we initialize the node in the identified RoI regions and define the adjacency edges. Lastly, we iteratively merge the text node with an adaptive sample mining strategy to reduce text bias.
 </p>
 
 # Getting Started
