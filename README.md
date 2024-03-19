@@ -137,6 +137,97 @@ for **debugging**:
 </tbody>
 </table>
 
+#### 3. Historical Japanese
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-amwm"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Model</span></th>
+    <th class="tg-amwm"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Config-file</span></th>
+    <th class="tg-amwm"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Weights</span></th>
+    <th class="tg-amwm"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">AP</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">R50-R18</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><a href=https://github.com/ayanban011/GraphKD/blob/main/projects/Distillation/configs/Distillation-FasterRCNN-R18-R50-dsig-1x.yaml>config-prima</a></span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><a href=https://drive.google.com/file/d/158615GZf8UIzute2tIQVWo7UOV2pDZvE/view?usp=sharing>model</a></span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">33.4</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">R101-R50</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><a href=https://github.com/ayanban011/GraphKD/blob/main/projects/Distillation/configs/Distillation-FasterRCNN-R50-R101-dsig-1x.yaml>config-prima</a></span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><a href=https://drive.google.com/file/d/1dN9zcaW3CfKbBQTqhxg7Ds1CklRbtfuw/view?usp=sharing>model</a></span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">78.3</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">R152-R101</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><a href=https://github.com/ayanban011/GraphKD/blob/main/projects/Distillation/configs/Distillation-FasterRCNN-R101-R152-dsig-1x.yaml>config-prima</a></span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><a href=https://drive.google.com/file/d/1_kHIEUhJnlDPct8u_af0SjQESNMvVlQy/view?usp=sharing>model</a></span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">79.7</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">R101-EB0</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><a href=https://github.com/ayanban011/GraphKD/blob/main/projects/Distillation/configs/Distillation-FasterRCNN-EB0-R101-dsig-1x.yaml>config-prima</a></span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><a href=https://drive.google.com/file/d/1rwiRrINAvrtVYFId2-70RoakI_dOeoMN/view?usp=sharing>model</a></span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">33.1</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">R50-MNv2</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><a href=https://github.com/ayanban011/GraphKD/blob/main/projects/Distillation/configs/Distillation-FasterRCNN-MNV2-R50-dsig-1x.yaml>config-prima</a></span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><a href=https://drive.google.com/file/d/1n59F-8XNv8ey_MyikI2VqYj9OS4tXaAc/view?usp=sharing>model</a></span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">37.5</span></td>
+  </tr>
+</tbody>
+</table>
+
+#### 4. DoclayNet
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-amwm"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Model</span></th>
+    <th class="tg-amwm"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Config-file</span></th>
+    <th class="tg-amwm"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Weights</span></th>
+    <th class="tg-amwm"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">AP</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">R50-R18</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><a href=https://github.com/ayanban011/GraphKD/blob/main/projects/Distillation/configs/Distillation-FasterRCNN-R18-R50-dsig-1x.yaml>config-prima</a></span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><a href=https://drive.google.com/file/d/1mCO5_lwS1S09ZwGR2yMkYJhx4yY1xTc0/view?usp=sharing>model</a></span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">42.1</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">R101-R50</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><a href=https://github.com/ayanban011/GraphKD/blob/main/projects/Distillation/configs/Distillation-FasterRCNN-R50-R101-dsig-1x.yaml>config-prima</a></span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><a href=https://drive.google.com/file/d/12-YRJXMuN-1IZkcd1fVfrVhyMjO3OX03/view?usp=sharing>model</a></span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">65.0</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">R152-R101</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><a href=https://github.com/ayanban011/GraphKD/blob/main/projects/Distillation/configs/Distillation-FasterRCNN-R101-R152-dsig-1x.yaml>config-prima</a></span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><a href=https://drive.google.com/file/d/1-x1aTdjGrH7rAB8kXZ5PnZpmujzQflqR/view?usp=sharing>model</a></span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">68.9</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">R101-EB0</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><a href=https://github.com/ayanban011/GraphKD/blob/main/projects/Distillation/configs/Distillation-FasterRCNN-EB0-R101-dsig-1x.yaml>config-prima</a></span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><a href=https://drive.google.com/file/d/1aTWTrst60X5JIQTa5agfZTGgDajsfFym/view?usp=sharing>model</a></span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">28.9</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">R50-MNv2</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><a href=https://github.com/ayanban011/GraphKD/blob/main/projects/Distillation/configs/Distillation-FasterRCNN-MNV2-R50-dsig-1x.yaml>config-prima</a></span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><a href=https://drive.google.com/file/d/1BAfVFdfw8lIY9vZyJ_lS4Ys1iUf1ntOP/view?usp=sharing>model</a></span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">23.6</span></td>
+  </tr>
+</tbody>
+</table>
+
+
 ## Citation
 
 If you find this useful for your research, please cite it as follows:
