@@ -1,4 +1,4 @@
-# GraphKD
+# GraphKD (Best Student Paper ICDAR, 2024,🏆)
 
 ### Description
 Pytorch implementation of the paper [Exploring Knowledge Distillation Towards Document Object Detection with Structured Graph Creation](https://arxiv.org/abs/2402.11401). This model is implemented on top of the [detectron2](https://github.com/facebookresearch/detectron2) framework. The proposed architecture explores graph-based knowledge distillation to mitigate the trade-off between no. of model parameters (trainable) and performance accuracy towards document knowledge distillation with adaptive node sampling strategy and weighted edge distillation via Mahalanobis distance.
